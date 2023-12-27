@@ -1,10 +1,10 @@
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
-import Presentacion from "../pages/Presentacion/Presentacion";
-import Characters from "../pages/Characters/Characters";
-import Episode from "../pages/Episode/Episode";
-import Location from "../pages/Location/Location";
-import CharacterPage from "../pages/CharacterPage/CharacterPage";
+import Presentacion from "../components/Presentacion";
+import Characters from "../components/Characters/Characters";
+import Episode from "../components/Episode/Episode";
+import Location from "../components/Location/Location";
+import CharacterPage from "../components/CharacterPage/CharacterPage";
 
 const AppRouter = () => {
   return (

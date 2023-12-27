@@ -1,4 +1,4 @@
-import AppRouter from "./appRouter/AppRouter";
+import AppRouter from "./pages/AppRouter/AppRouter";
 import { NextUIProvider } from "@nextui-org/react";
 import { FilterProvider } from './context/FilterContext';
 import './App.css';
